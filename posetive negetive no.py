@@ -3,8 +3,8 @@
 number= int(input("please enter your number:  "))
 if number>0 :
     print("your number is POSETIVE")
-elif number < 0:
+elif number < 0 :
     print("your number is NEGETIVE")
-else:
+else :
     print("your number is zero.")
 
