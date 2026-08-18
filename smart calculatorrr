@@ -1,9 +1,0 @@
-#basic calculator 
-num1= float(input("enter first number:"))
-num2=float(input("enter second number:"))
-
-print("Addition", num1+num2)
-print("Substraction", num1-num2)
-print("Multiplication", num1*num2)
-print("Devision", num1/num2)
-
