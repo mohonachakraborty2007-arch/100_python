@@ -1,12 +1,12 @@
 #sum of odd numbers 
 
-start = int(input("Enter your starting number: "))
-end = int(input("Enter your ending number: "))
+start = int(input("Enter the starting number: "))
+end = int(input("Enter the ending number: "))
 
-total = 0 
+total = 0
 
-for number in range ( start, end+1 ): 
-    number % 2 != 0 
-    total += number 
+for number in range(start, end + 1):
+    if number % 2 != 0:
+        total += number
 
-    print("The sum of the odd numbers:", total )
+print("Sum of odd numbers:", total)
